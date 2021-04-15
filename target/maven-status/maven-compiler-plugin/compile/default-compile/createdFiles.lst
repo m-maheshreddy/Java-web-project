@@ -1,0 +1,3 @@
+com\mahesh\web\WebInitializer.class
+com\mahesh\web\controller\WelcomeController.class
+com\mahesh\web\config\SpringConfig.class
