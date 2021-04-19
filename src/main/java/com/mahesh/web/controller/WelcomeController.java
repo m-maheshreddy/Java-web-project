@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.Date;
 
 @Controller
-@RequestMapping("/hello")
+//@RequestMapping("/hello")
 public class WelcomeController {
 
     private final Logger logger = LoggerFactory.getLogger(WelcomeController.class);

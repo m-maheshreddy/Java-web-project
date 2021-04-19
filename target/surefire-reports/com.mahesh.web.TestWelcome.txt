@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mahesh.web.TestWelcome
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.951 s - in com.mahesh.web.TestWelcome
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.603 s <<< FAILURE! - in com.mahesh.web.TestWelcome
+testWelcome  Time elapsed: 0.075 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.mahesh.web.TestWelcome.testWelcome(TestWelcome.java:44)
+
